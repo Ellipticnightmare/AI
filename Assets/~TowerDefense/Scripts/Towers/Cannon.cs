@@ -27,7 +27,8 @@ namespace TowerDefense
 
         public override void Attack(Enemy e)
         {
-
+            line.enabled = true;
+            e.DealDamage(damage);
         }
     }
 }
